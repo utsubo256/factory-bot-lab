@@ -21,3 +21,7 @@ end
 group :test do
   gem "minitest", "~> 5.0"
 end
+
+group :development, :test do
+  gem "factory_bot_rails", "~> 6.0"
+end
